@@ -15,3 +15,13 @@ class Coche:
 		else:
 			print "No se mueve"
 
+#Inicializamos el objeto
+mi_coche = Coche(3)
+
+print mi_coche.gasolina
+mi_coche.arrancar() #Imprime Arranca
+mi_coche.conducir() #Imprime quedan dos litros
+mi_coche.conducir() #Imprime quedan un litros
+mi_coche.conducir() #Imprime quedan 0 litros
+mi_coche.conducir() #Imprime no se mueve
+mi_coche.arrancar() #Imprime Arranca
