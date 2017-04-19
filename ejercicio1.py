@@ -8,3 +8,10 @@ INVENTORY = {'gold':500,'pouch':['flint', 'twine','gemstone'],'backpack':['xylop
 INVENTORY['backpack'].sort()
 INVENTORY['backpack'].remove('dagger')
 print INVENTORY
+
+print "Ejercicio 3"
+L=['xylophone','dagger','bedroll','bread loaf']
+L.append('drum')
+L.insert(2,'trompet')
+L.remove(L[3])
+print L
